@@ -1,0 +1,21 @@
+
+/**
+ * Product Hunt logo.
+ */
+
+.logo[data-logo="Product Hunt"] {
+  width: 0;
+}
+
+.logo[data-logo="Product Hunt"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Product Hunt"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Product Hunt"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
